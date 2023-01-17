@@ -1,0 +1,22 @@
+.button {
+    background: linear-gradient(rgb(94, 94, 94), rgb(133, 133, 133));
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: linear-gradient(rgb(144, 13, 161), rgb(206, 78, 223));
+}
+
+.button:active{
+    background: linear-gradient(rgb(201, 72, 183), rgb(77, 10, 83));
+}
+
+.button1 {border-radius: 12px;}
