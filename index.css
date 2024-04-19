@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #222222;
+    background-image: url("Resources/wall.png");
+    background-size: cover;
+}
+
+@font-face {
+    font-family: Nerd;
+    src: url("Resources/SymbolsNerdFontMono-Regular.ttf");
+}
+
+.nerdicon {
+    font-family: Nerd;
+    font-size: 20pt;
+}
+
+.iconlink {
+    margin: 5px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.iconlink:hover {
+    color: #ffffff;
+}
+.iconlink:visited {
+    color: #ffffff;
+}
+
+.container {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.bio {
+    padding: 5%;
+    text-align: center;
+
+    border-radius: 10px;
+
+    -webkit-box-shadow: 0px 0px 16px -4px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 16px -4px rgba(0,0,0,1);
+    box-shadow: 0px 0px 16px -4px rgba(0,0,0,1);
+
+    color: #ffffff;
+    background-color: #313131;
+
+    width: 300px;
+}
