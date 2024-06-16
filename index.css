@@ -8,8 +8,8 @@ body {
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color: #222222;
-    background-image: url("Resources/wall.png");
+    background-color: #020202;
+    background-image: url("Resources/wall.jpg");
     background-size: cover;
 }
 
@@ -19,8 +19,14 @@ body {
 }
 
 .nerdicon {
+    background-color: #222222;
+    padding: 3%;
+    border-radius: 10px;
     font-family: Nerd;
     font-size: 20pt;
+}
+.nerdicon:hover {
+    background-color: #ffffff;
 }
 
 .iconlink {
@@ -29,10 +35,7 @@ body {
     color: #ffffff;
 }
 .iconlink:hover {
-    color: #ffffff;
-}
-.iconlink:visited {
-    color: #ffffff;
+    color: #222222;
 }
 
 .container {
@@ -43,7 +46,7 @@ body {
 }
 
 .bio {
-    padding: 5%;
+    padding: 7%;
     text-align: center;
 
     border-radius: 10px;
@@ -53,7 +56,8 @@ body {
     box-shadow: 0px 0px 16px -4px rgba(0,0,0,1);
 
     color: #ffffff;
-    background-color: #313131;
+    background-color: #1a1919;
 
-    width: 300px;
+    width: 400px;
+    
 }
